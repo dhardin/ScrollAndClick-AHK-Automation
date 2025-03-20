@@ -55,7 +55,9 @@ This is a flexible **AutoHotkey (AHK) script** designed to automate repetitive t
 Imagine a scenario where you need to repeatedly click on a button (represented by an image) in a web or desktop application:
 - The script will locate the button’s image on the screen, click it, scroll down to find more buttons, and repeat the process until the user-specified task count is reached.
 
-Here is an example image of a button that you would use for automation.  I found it better to not include the button edges as the screenshots could alter the resolution of the button, resulting in the image not being found in script.  This could be mitigated as well by adjusting the tolerance level (e.g., *20 in ImageSearch params to be greater, `*50`, or smaller, `*10`, to match your use case), but the current value worked for my needs after testing various tolerance levels.
+Here is an example image of a button that you would use for automation.  I found it better to not include the button edges as the screenshots could alter the resolution of the button, resulting in the image not being found in script.  This could be mitigated as well by adjusting the tolerance level (e.g., `*20` in ImageSearch params to be greater, `*50`, or smaller, `*10`, to match your use case), but the current value worked for my needs after testing various tolerance levels.
+
+
 ![Task Automation Example](https://github.com/dhardin/ScrollAndClick-AHK-Automation/blob/main/snip.png)
 
 ## Notes
