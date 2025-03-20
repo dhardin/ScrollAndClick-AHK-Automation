@@ -13,7 +13,8 @@ This is a flexible **AutoHotkey (AHK) script** designed to automate repetitive t
 
 ## How It Works
 1. **Start script**:
-   - Double click on automation script.
+   - Double click on automation script to start listening for user input.
+   - Press `F1` to initiate script.
    - Setup prompts will appear required user input.
 2. **Setup Phase**:
    - Input the image file path (e.g., `C:\Users\YourName\Pictures\snip.png`).
