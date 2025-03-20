@@ -12,10 +12,13 @@ This is a flexible **AutoHotkey (AHK) script** designed to automate repetitive t
 - **Escape Key to Exit**: Allows users to gracefully exit the script at any time.
 
 ## How It Works
-1. **Setup Phase**:
+1. **Start script**:
+   - Double click on automation script.
+   - Setup prompts will appear required user input.
+2. **Setup Phase**:
    - Input the image file path (e.g., `C:\Users\YourName\Pictures\snip.png`).
    - Specify how many times you want the task to be performed.
-2. **Search Phase**:
+3. **Search Phase**:
    - The script dynamically searches for the target image on the screen using `ImageSearch`.
    - If the image is found:
      - It clicks the image.
@@ -23,16 +26,17 @@ This is a flexible **AutoHotkey (AHK) script** designed to automate repetitive t
      - Increments the task counter.
    - If the image isn’t found:
      - It scrolls the page down and continues searching.
-3. **Completion**:
+4. **Completion**:
    - The script stops automatically when the specified number of tasks is completed or can be exited manually with the **Escape key**.
 
 ## Requirements
+- **Download script**: Download [auto-clicker.ahk](https://github.com/dhardin/ScrollAndClick-AHK-Automation/blob/main/auto-clicker.ahk)
 - **AutoHotkey (AHK)**: Download and install AutoHotkey from [here](https://www.autohotkey.com/).
 - **Target Image**: Prepare the image file you want to search for on the screen and ensure it’s in the correct path.
 - **Windows Environment**: Designed to work on Windows systems using AHK.
 
 ## How to Use
-1. Save the script as a `.ahk` file (e.g., `TaskAutomation.ahk`).
+1. Save the script as a `.ahk` file (e.g., `auto-clicker.ahk`).
 2. Double-click the file to run it.
 3. Enter the full path to the target image and the number of tasks to perform when prompted.
 4. Watch as the script automates the task for the specified number of iterations.
